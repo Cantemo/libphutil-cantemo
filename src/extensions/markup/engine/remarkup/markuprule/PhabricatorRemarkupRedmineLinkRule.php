@@ -1,6 +1,8 @@
 <?php
   /**
-   * Looks for references to GHC Trac issues and links to them as a Remarkup rule.
+   * Looks for references to Redmine issues and links to them as a Remarkup rule.
+   *
+   * Based on code from https://github.com/haskell-infra/libphutil-haskell
    */
 final class PhabricatorRemarkupRedmineLinkRule
 extends PhabricatorRemarkupCustomInlineRule {
